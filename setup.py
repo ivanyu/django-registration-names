@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from setuptools import setup
+from setuptools import find_packages
 import os
 
 from registration_names import VERSION
@@ -27,14 +28,14 @@ setup(
     version=VERSION,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
-    keywords="django, views, forms, mixins",
+    keywords="django, django-registration",
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     maintainer=MAINTAINER,
     maintainer_email=MAINTAINER_EMAIL,
     url=URL,
     license="MIT License",
-    packages=["registration"],
+    packages=find_packages(),
     zip_safe=False,
     install_requires=[],
     include_package_data=True,
@@ -48,4 +49,5 @@ setup(
         "Operating System :: OS Independent",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
+    test_suite="registration_names.tests"
 )
