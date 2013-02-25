@@ -98,3 +98,6 @@ See LICENSE.txt
 
 ### Contributors
 Project initially started by Ivan Yurchenko (ivan0yurchenko@gmail.com)
+
+### Also
+Please, send me a feedback about the app (bugs, examples of usage etc.)
